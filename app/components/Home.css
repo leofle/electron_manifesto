@@ -2,7 +2,7 @@
   position: absolute;
   top: 30%;
   left: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .container h2 {
@@ -11,4 +11,5 @@
 
 .container a {
   font-size: 1.4rem;
+  padding: 10px;
 }
