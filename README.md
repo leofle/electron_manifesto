@@ -11,39 +11,6 @@
 [Electron](http://electron.atom.io/) application boilerplate based on [React](https://facebook.github.io/react/), [Redux](https://github.com/reactjs/redux), [React Router](https://github.com/reactjs/react-router), [Webpack](http://webpack.github.io/docs/), [React Transform HMR](https://github.com/gaearon/react-transform-hmr) for rapid application development
 
 
-## Install
-
-First, clone the repo via git:
-
-```bash
-git clone https://github.com/leofle/electron-manifesto.git your-project-name
-```
-
-And then install dependencies.
-
-```bash
-$ cd your-project-name && npm install
-```
-
-
-## Run
-
-Run this two commands __simultaneously__ in different console tabs.
-
-```bash
-$ npm run hot-server
-$ npm run start-hot
-```
-
-or run two servers with one command
-
-```bash
-$ npm run dev
-```
-
-*Note: requires a node version >= 4 and an npm version >= 2.*
-
-
 ## DevTools
 
 #### Toggle Chrome DevTools
