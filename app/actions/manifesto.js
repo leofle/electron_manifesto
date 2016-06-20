@@ -1,34 +1,18 @@
-// export const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
-// export const DECREMENT_COUNTER = 'DECREMENT_COUNTER';
-//
-// export function increment() {
-//   return {
-//     type: INCREMENT_COUNTER
-//   };
-// }
-//
-// export function decrement() {
-//   return {
-//     type: DECREMENT_COUNTER
-//   };
-// }
-//
-// export function incrementIfOdd() {
-//   return (dispatch, getState) => {
-//     const { frase } = getState();
-//
-//     if (counter % 2 === 0) {
-//       return;
-//     }
-//
-//     dispatch(increment());
-//   };
-// }
-//
-// export function incrementAsync(delay = 1000) {
-//   return dispatch => {
-//     setTimeout(() => {
-//       dispatch(increment());
-//     }, delay);
-//   };
-// }
+export const SHOW_VIEW = 'SHOW_VIEW';
+
+export function addview() {
+  console.log('add');
+  return {
+    type: SHOW_VIEW
+  };
+}
+
+export function removeView() {
+  return (dispatch, getState) => {
+    const { frase } = getState();
+
+    console.log('remove');
+
+    dispatch(addview());
+  };
+}

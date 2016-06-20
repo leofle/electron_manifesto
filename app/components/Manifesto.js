@@ -5,6 +5,7 @@ import styles from './Manifesto.css';
 class Manifesto extends Component {
 
   render() {
+    const { removeView } = this.props;
     return (
       <div>
         <div className={styles.backButton}>
@@ -12,7 +13,7 @@ class Manifesto extends Component {
             <i className="fa fa-arrow-left fa-3x" />
           </Link>
         </div>
-        <p>ux manifesto view</p>
+        <p onClick={removeView} >ux manifesto view</p>
       </div>
     );
   }
