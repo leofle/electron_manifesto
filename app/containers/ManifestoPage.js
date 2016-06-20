@@ -1,16 +1,10 @@
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
+import React, { Component } from 'react';
 import Manifesto from '../components/Manifesto';
-import * as ManifestoActions from '../actions/manifesto';
 
-function mapStateToProps(state) {
-  return {
-    frase: state.frase
-  };
+export default class ManifestoPage extends Component {
+  render() {
+    return (
+      <Manifesto />
+    );
+  }
 }
-
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators(ManifestoActions, dispatch);
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Manifesto);
