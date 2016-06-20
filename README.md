@@ -1,4 +1,4 @@
-# electron-react-boilerplate
+# electron-manifesto
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -10,16 +10,13 @@
 
 [Electron](http://electron.atom.io/) application boilerplate based on [React](https://facebook.github.io/react/), [Redux](https://github.com/reactjs/redux), [React Router](https://github.com/reactjs/react-router), [Webpack](http://webpack.github.io/docs/), [React Transform HMR](https://github.com/gaearon/react-transform-hmr) for rapid application development
 
-## Screenshot
-
-![](https://cloud.githubusercontent.com/assets/3382565/10557547/b1f07a4e-74e3-11e5-8d27-79ab6947d429.gif)
 
 ## Install
 
 First, clone the repo via git:
 
 ```bash
-git clone https://github.com/chentsulin/electron-react-boilerplate.git your-project-name
+git clone https://github.com/leofle/electron-manifesto.git your-project-name
 ```
 
 And then install dependencies.
@@ -128,43 +125,11 @@ We add some module's `peerDependencies` to ignore option as default for applicat
 
 Please checkout [Building windows apps from non-windows platforms](https://github.com/maxogden/electron-packager#building-windows-apps-from-non-windows-platforms).
 
-## Dispatching redux actions from main process
-
-see discusses in [#118](https://github.com/chentsulin/electron-react-boilerplate/issues/118) and [#108](https://github.com/chentsulin/electron-react-boilerplate/issues/108)
-
-## How hot-reloading works on Electron
-
-We use [webpack-target-electron-renderer](https://github.com/chentsulin/webpack-target-electron-renderer) to provide a build target for electron renderer process. Read more information [here](https://github.com/chentsulin/webpack-target-electron-renderer#how-this-module-works).
-
-> Note: webpack >= 1.12.15 has built-in support for `electron-main` and `electron-renderer` targets.
-
-## How to keep the boilerplate updated
-
-If your application is a fork from this repo, you can add this repo to another git remote:
-
-```sh
-git remote add upstream https://github.com/chentsulin/electron-react-boilerplate.git
-```
-
-Then, use git to merge some latest commits:
-
-```sh
-git pull upstream master
-```
 
 ## Native-like UI
 
 If you want to have native-like User Interface (OS X El Capitan and Windows 10), [react-desktop](https://github.com/gabrielbull/react-desktop) may perfect suit for you.
 
-
-## Maintainers
-
-- [C. T. Lin](https://github.com/chentsulin)
-- [Jhen-Jie Hong](https://github.com/jhen0409)
-
-
-## License
-MIT © [C. T. Lin](https://github.com/chentsulin)
 
 [npm-image]: https://img.shields.io/npm/v/electron-react-boilerplate.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/electron-react-boilerplate
