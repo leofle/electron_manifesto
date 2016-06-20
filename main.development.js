@@ -17,6 +17,7 @@ app.on('window-all-closed', () => {
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
+    resizable: false,
     show: false,
     width: 1024,
     height: 728
