@@ -6,6 +6,7 @@ class Manifesto extends Component {
 
   render() {
     const { removeView } = this.props;
+
     return (
       <div className={styles.manifesto}>
         <div className={styles.backButton}>
