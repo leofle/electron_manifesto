@@ -13,9 +13,16 @@
   font-size: 5rem;
   font-weight: 300;
   cursor: default;
+  margin: 0 0 40px 0;
 }
 
 .container a {
+  border: 2px solid #fff;
+  border-radius: 5px;
   font-size: 1.4rem;
   padding: 10px;
+}
+
+.container a:hover {
+  background-color: hotpink;
 }
