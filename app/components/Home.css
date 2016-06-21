@@ -36,6 +36,6 @@
   right: 40px;
 }
 
-.container p.fa-heart {
+span .fa-heart:before {
   color: red;
 }
