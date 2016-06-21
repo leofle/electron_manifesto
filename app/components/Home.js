@@ -11,6 +11,7 @@ export default class Home extends Component {
           <h2>Ux Manifesto</h2>
           <Link to="/manifesto"> Manifesto</Link>
           </div>
+          <p className={styles.paragraph}>Made with <span className="fa fa-heart"></span> by Lio Fleishman all rights reserved to ClickSoftware Inc. 2016</p>
       </div>
     );
   }
