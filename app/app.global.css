@@ -2,7 +2,7 @@ body {
   position: relative;
   color: white;
   height: 100vh;
-  background-color: hotpink;
+  background-color: #5854f1;
   font-family: Arial, Helvetica, Helvetica Neue;
   overflow-y: hidden;
 }
@@ -27,6 +27,8 @@ a {
   color: white;
   opacity: .75;
   text-decoration: none;
+  -webkit-app-region: no-drag;
+  transition: all .3s ease;
 }
 
 a:hover {

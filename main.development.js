@@ -18,6 +18,7 @@ app.on('window-all-closed', () => {
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
     resizable: false,
+    titleBarStyle: 'hidden',
     show: false,
     width: 1024,
     height: 728
@@ -52,7 +53,7 @@ app.on('ready', () => {
     template = [{
       label: 'Electron',
       submenu: [{
-        label: 'About ElectronReact',
+        label: 'About ClickStyling',
         selector: 'orderFrontStandardAboutPanel:'
       }, {
         type: 'separator'
@@ -62,7 +63,7 @@ app.on('ready', () => {
       }, {
         type: 'separator'
       }, {
-        label: 'Hide ElectronReact',
+        label: 'Hide ClickStyling',
         accelerator: 'Command+H',
         selector: 'hide:'
       }, {
