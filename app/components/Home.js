@@ -9,7 +9,6 @@ export default class Home extends Component {
       <div>
         <div className={styles.container}>
           <h2>Ux Manifesto</h2>
-          <Link to="/counter">Counter</Link>
           <Link to="/manifesto"> Manifesto</Link>
         </div>
       </div>

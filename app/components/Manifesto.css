@@ -1,0 +1,15 @@
+.manifesto {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-align: left;
+  -webkit-user-select: none;
+  margin: 40px;
+}
+.manifesto h4 {
+	font-size: 2rem;
+   	font-weight: 100;
+}
+
+.manifesto p {
+	font-size: 1.5rem;
+	font-weight: 200;
+}
