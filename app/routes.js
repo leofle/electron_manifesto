@@ -4,6 +4,7 @@ import App from './containers/App';
 import HomePage from './containers/HomePage';
 import CounterPage from './containers/CounterPage';
 import ManifestoPage from './containers/ManifestoPage';
+import OtherPage from './containers/OtherPage';
 
 
 export default (
@@ -11,5 +12,6 @@ export default (
     <IndexRoute component={HomePage} />
     <Route path="/counter" component={CounterPage} />
     <Route path="/manifesto" component={ManifestoPage} />
+    <Route path="/other" component={OtherPage} />
   </Route>
 );

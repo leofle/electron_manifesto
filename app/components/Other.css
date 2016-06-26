@@ -1,0 +1,17 @@
+.other {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  text-align: left;
+  -webkit-user-select: none;
+  margin: 40px;
+}
+.other h4 {
+	font-size: 2rem;
+   	font-weight: 200;
+}
+
+.other p {
+	font-size: 1.5rem;
+	font-weight: 200;
+}
