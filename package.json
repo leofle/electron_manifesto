@@ -75,7 +75,7 @@
     "electron-packager": "^7.0.2",
     "electron-prebuilt": "^1.2.3",
     "electron-rebuild": "^1.1.4",
-    "eslint": "^2.10.2",
+    "eslint": "4.18.2",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-import-resolver-webpack": "^0.3.0",
     "eslint-plugin-import": "^1.8.1",
